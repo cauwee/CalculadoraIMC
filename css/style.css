@@ -9,13 +9,12 @@ main {
 .container {
     display: flex;
     flex-direction: column;
-    background: rgb(102, 0, 255);
+    background: rgb(177, 177, 177);
     width: 400px;
     height: 600px;
     align-items: center;
     justify-content: space-evenly; /*espaçamento igual*/
-    border-radius: 20px;
-    box-shadow: 5px 10px 15px gray;
+    border-radius: 10px;
 }
 
 .title {
@@ -27,6 +26,7 @@ main {
     font: bold 2.5rem sans-serif;
     border-bottom: solid 3px black; /*Sublinhamento*/
     margin-bottom: 10px; /*margem abaixo do elemento*/
+    padding-bottom: 20px;
 }
 .input {
     display: flex;
@@ -50,11 +50,12 @@ main {
 button {
     width: 300px;
     height: 40px;
+    border: none;
     font: bold 1.2rem sans-serif;
     background: whitesmoke;
-    color: rgb(102, 0, 255);
+    color: rgb(97, 97, 97);
     outline: none;
-    border-radius: 5px;
+    border-radius: 50px;
     cursor: pointer;
 }
 .result {
@@ -65,9 +66,8 @@ button {
     height: 150px;
     border-radius: 5px;
     font: bold 1.4rem sans-serif;
-    box-shadow: 2.5px 5px 10px rgb(0, 0, 0);
     background: whitesmoke;
-    color: rgb(102, 0, 255);
+    color: rgb(97, 97, 97);
     padding: 20px;
     box-sizing: border-box;
     user-select: none;
